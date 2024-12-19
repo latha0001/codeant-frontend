@@ -1,0 +1,112 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+    cursor: pointer;
+  }
+  
+  .repository-container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ecf0f1;
+  }
+  
+  .repository-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .repository-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .repository-container ul li {
+    margin: 10px 0;
+  }
+  /* styles.css */
+
+/* Sidebar buttons */
+.sidebar-button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .repository-container.desktop {
+    padding: 20px;
+  }
+  
+  /* Search input styling */
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .repository-list ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .repository-list li {
+    margin: 5px 0;
+  }
+  
+  .repository-details {
+    margin-top: 20px;
+  }
+  
+  .repository-details h2 {
+    font-size: 24px;
+  }
+  
+  .repository-details p {
+    font-size: 16px;
+  }
+  
+  /* Positioning the top-right buttons */
+  .top-right-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .top-right-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .top-right-button:hover {
+    background-color: #45a049;
+  }
+  
